@@ -1,0 +1,22 @@
+{
+  "name": "ashley-co",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horoshopodumaj/Ashley-Co.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horoshopodumaj/Ashley-Co/issues"
+  },
+  "homepage": "https://github.com/horoshopodumaj/Ashley-Co#readme",
+  "devDependencies": {
+    "sass": "^1.54.8"
+  }
+}
