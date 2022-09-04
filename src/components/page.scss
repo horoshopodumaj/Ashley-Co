@@ -1,5 +1,14 @@
 .page {
     display: flex;
     flex-direction: column;
-    min-width: 100vw;
+    height: 100vh;
+
+    &__box {
+        max-width: 1360px;
+        margin: 0 auto;
+    }
+
+    &__header {
+        margin-top: 26px;
+    }
 }
