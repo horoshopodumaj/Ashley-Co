@@ -104,4 +104,9 @@ h6 {
   font-weight: 400;
 }
 
+.header {
+  position: absolute;
+  left: 26px;
+}
+
 /*# sourceMappingURL=index.css.map */
