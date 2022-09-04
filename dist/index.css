@@ -18,6 +18,8 @@
 :root {
   --yellow: #e7f066;
   --black: #262626;
+  --brown: #9c8554;
+  --grey: #b2b2b2;
 }
 
 * {
@@ -149,6 +151,56 @@ h6 {
   line-height: 135%;
   letter-spacing: 1.2px;
   color: var(--black);
+}
+
+.second {
+  display: flex;
+  background-color: var(--brown);
+}
+.second__img {
+  width: 1065px;
+  height: 688px;
+}
+.second__text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second__text {
+  margin-bottom: 45px;
+  margin-left: 40px;
+  margin-right: 57px;
+  padding-top: 20px;
+}
+.second__title {
+  color: var(--grey);
+  font-size: 15px;
+  line-height: 108%;
+  letter-spacing: 0.5px;
+  padding-right: 40px;
+  margin-top: 39px;
+  margin-left: 40px;
+}
+.second__description {
+  color: var(--grey);
+  line-height: 101%;
+  letter-spacing: 0.5px;
+  padding-bottom: 21px;
+}
+.second__link {
+  color: var(--grey);
+  font-style: 12px;
+  line-height: 135%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.second__caption {
+  font-size: 25px;
+  line-height: 109%;
+  letter-spacing: 0.5px;
+  color: var(--grey);
+  margin: 40px;
+  text-align: right;
 }
 
 /*# sourceMappingURL=index.css.map */

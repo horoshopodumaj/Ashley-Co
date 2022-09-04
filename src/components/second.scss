@@ -1,0 +1,56 @@
+.second {
+    display: flex;
+    background-color: var(--brown);
+
+    &__img {
+        width: 1065px;
+        height: 688px;
+    }
+
+    &__text-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__text {
+        margin-bottom: 45px;
+        margin-left: 40px;
+        margin-right: 57px;
+        padding-top: 20px;
+    }
+
+    &__title {
+        color: var(--grey);
+        font-size: 15px;
+        line-height: 108%;
+        letter-spacing: 0.5px;
+        padding-right: 40px;
+        margin-top: 39px;
+        margin-left: 40px;
+    }
+
+    &__description {
+        color: var(--grey);
+        line-height: 101%;
+        letter-spacing: 0.5px;
+        padding-bottom: 21px;
+    }
+
+    &__link {
+        color: var(--grey);
+        font-style: 12px;
+        line-height: 135%;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+
+    &__caption {
+        font-size: 25px;
+        line-height: 109%;
+        letter-spacing: 0.5px;
+        color: var(--grey);
+        margin: 40px;
+        text-align: right;
+    }
+}
