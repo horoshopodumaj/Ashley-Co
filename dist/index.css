@@ -20,6 +20,7 @@
   --black: #262626;
   --brown: #9c8554;
   --grey: #b2b2b2;
+  --pink: #a26779;
 }
 
 * {
@@ -157,6 +158,9 @@ h6 {
   display: flex;
   background-color: var(--brown);
 }
+.second_six {
+  background-color: var(--pink);
+}
 .second__img {
   width: 1065px;
   height: 688px;
@@ -169,7 +173,7 @@ h6 {
 .second__text {
   margin-bottom: 45px;
   margin-left: 40px;
-  margin-right: 57px;
+  padding-right: 20px;
   padding-top: 20px;
 }
 .second__title {
@@ -193,6 +197,10 @@ h6 {
   line-height: 135%;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  display: inline-block;
+  white-space: nowrap;
 }
 .second__caption {
   font-size: 25px;
