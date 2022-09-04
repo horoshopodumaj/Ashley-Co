@@ -20,7 +20,9 @@
   --black: #262626;
   --brown: #9c8554;
   --grey: #b2b2b2;
+  --grey-2: #504b4d;
   --pink: #a26779;
+  --red: #b04836;
 }
 
 * {
@@ -161,6 +163,12 @@ h6 {
 .second_six {
   background-color: var(--pink);
 }
+.second_eight {
+  background-color: var(--grey-2);
+}
+.second_nine {
+  background-color: var(--red);
+}
 .second__img {
   width: 1065px;
   height: 688px;
@@ -200,7 +208,6 @@ h6 {
   border-bottom: 1px solid;
   padding-bottom: 3px;
   display: inline-block;
-  white-space: nowrap;
 }
 .second__caption {
   font-size: 25px;
