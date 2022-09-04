@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
 }
 .page__box {
   max-width: 1360px;
@@ -10,6 +13,11 @@
 }
 .page__header {
   margin-top: 26px;
+}
+
+:root {
+  --yellow: #e7f066;
+  --black: #262626;
 }
 
 * {
@@ -107,6 +115,40 @@ h6 {
 .header {
   position: absolute;
   left: 26px;
+}
+
+.main__first {
+  display: flex;
+  background-color: var(--yellow);
+}
+.main__img {
+  width: 1080px;
+  height: 688px;
+}
+.main__caption {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  font-size: 25px;
+  line-height: 109%;
+  letter-spacing: 0.5px;
+}
+.main__text {
+  padding-top: 119px;
+  padding-left: 40px;
+  padding-right: 45px;
+}
+.main__description {
+  font-size: 14px;
+  line-height: 116%;
+  letter-spacing: 0.5px;
+  padding-bottom: 21px;
+}
+.main__link {
+  font-size: 12px;
+  line-height: 135%;
+  letter-spacing: 1.2px;
+  color: var(--black);
 }
 
 /*# sourceMappingURL=index.css.map */
