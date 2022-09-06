@@ -51,7 +51,7 @@
 
     &__link {
         color: var(--grey);
-        font-style: 12px;
+        font-size: 12px;
         line-height: 135%;
         letter-spacing: 1.2px;
         text-transform: uppercase;
@@ -87,5 +87,28 @@
         height: 100vh;
         max-height: 800px;
         min-height: 600px;
+    }
+
+    &__bottomlink {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+    }
+
+    &__link_black {
+        color: var(--black);
+        font-size: 12px;
+        line-height: 135%;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding-bottom: 3px;
+        display: inline-block;
+    }
+
+    &__underline {
+        padding: 40px;
+        max-width: 310px;
     }
 }
