@@ -126,7 +126,7 @@ h6 {
   display: flex;
   background-color: var(--brown);
 }
-.unitSame_six {
+.unitSame_five {
   background-color: var(--pink);
 }
 .unitSame_eight {
@@ -300,6 +300,48 @@ h6 {
 .unitImageText__link {
   font-size: 12px;
   line-height: 135%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  color: var(--black);
+}
+
+.unitImage__img {
+  background-image: url("../../img/five.jpg");
+  background-position: 50%;
+  background-size: cover;
+  height: 100vh;
+  max-height: 800px;
+  min-height: 600px;
+}
+.unitImage__content {
+  margin-left: 40px;
+  padding-top: 119px;
+  width: 280px;
+}
+.unitImage__about {
+  font-size: 15px;
+  line-height: 108%;
+  letter-spacing: 0.5px;
+  padding-bottom: 11px;
+  text-transform: uppercase;
+}
+.unitImage__title {
+  font-size: 25px;
+  line-height: 109%;
+  letter-spacing: 0.5px;
+  padding-bottom: 39px;
+}
+.unitImage__text {
+  font-size: 16px;
+  line-height: 101%;
+  letter-spacing: 0.5px;
+  padding-bottom: 15px;
+}
+.unitImage__link {
+  font-size: 11px;
+  line-height: 147%;
   letter-spacing: 1.2px;
   text-transform: uppercase;
   border-bottom: 1px solid;

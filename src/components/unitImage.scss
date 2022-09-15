@@ -1,0 +1,48 @@
+.unitImage {
+    &__img {
+        background-image: url("../../img/five.jpg");
+        background-position: 50%;
+        background-size: cover;
+        height: 100vh;
+        max-height: 800px;
+        min-height: 600px;
+    }
+
+    &__content {
+        margin-left: 40px;
+        padding-top: 119px;
+        width: 280px;
+    }
+
+    &__about {
+        font-size: 15px;
+        line-height: 108%;
+        letter-spacing: 0.5px;
+        padding-bottom: 11px;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        font-size: 25px;
+        line-height: 109%;
+        letter-spacing: 0.5px;
+        padding-bottom: 39px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 101%;
+        letter-spacing: 0.5px;
+        padding-bottom: 15px;
+    }
+
+    &__link {
+        font-size: 11px;
+        line-height: 147%;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding-bottom: 3px;
+        color: var(--black);
+    }
+}
