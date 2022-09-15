@@ -122,35 +122,35 @@ h6 {
   left: 26px;
 }
 
-.second {
+.unitSame {
   display: flex;
   background-color: var(--brown);
 }
-.second_six {
+.unitSame_six {
   background-color: var(--pink);
 }
-.second_eight {
+.unitSame_eight {
   background-color: var(--grey-2);
 }
-.second_nine {
+.unitSame_nine {
   background-color: var(--red);
 }
-.second__img {
+.unitSame__img {
   width: 1065px;
   height: 688px;
 }
-.second__text-content {
+.unitSame__text-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.second__text {
+.unitSame__text {
   margin-bottom: 45px;
   margin-left: 40px;
   padding-right: 20px;
   padding-top: 20px;
 }
-.second__title {
+.unitSame__title {
   color: var(--grey);
   font-size: 15px;
   line-height: 108%;
@@ -159,13 +159,13 @@ h6 {
   margin-top: 39px;
   margin-left: 40px;
 }
-.second__description {
+.unitSame__description {
   color: var(--grey);
   line-height: 101%;
   letter-spacing: 0.5px;
   padding-bottom: 21px;
 }
-.second__link {
+.unitSame__link {
   color: var(--grey);
   font-size: 12px;
   line-height: 135%;
@@ -175,7 +175,7 @@ h6 {
   padding-bottom: 3px;
   display: inline-block;
 }
-.second__caption {
+.unitSame__caption {
   font-size: 25px;
   line-height: 109%;
   letter-spacing: 0.5px;
@@ -183,7 +183,7 @@ h6 {
   margin: 40px;
   text-align: right;
 }
-.second__threeimg {
+.unitSame__threeimg {
   background-image: url("../../img/three.jpg");
   background-position: 50%;
   background-size: cover;
@@ -192,7 +192,7 @@ h6 {
   max-height: 800px;
   min-height: 600px;
 }
-.second__threeimgparttwo {
+.unitSame__threeimgparttwo {
   background-image: url("../../img/three_2.jpg");
   background-position: 50%;
   background-size: cover;
@@ -201,13 +201,13 @@ h6 {
   max-height: 800px;
   min-height: 600px;
 }
-.second__bottomlink {
+.unitSame__bottomlink {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
 }
-.second__link_black {
+.unitSame__link_black {
   color: var(--black);
   font-size: 12px;
   line-height: 135%;
@@ -217,7 +217,7 @@ h6 {
   padding-bottom: 3px;
   display: inline-block;
 }
-.second__underline {
+.unitSame__underline {
   padding: 40px;
   max-width: 310px;
 }
