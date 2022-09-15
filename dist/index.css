@@ -260,4 +260,51 @@ h6 {
   max-width: 310px;
 }
 
+.unitImageText {
+  display: flex;
+  padding: 116px 25px;
+}
+.unitImageText__img {
+  max-height: 568px;
+  padding-right: 30px;
+}
+.unitImageText__content {
+  max-width: 310px;
+  margin: auto 0;
+}
+.unitImageText__about {
+  font-size: 15px;
+  line-height: 108%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+.unitImageText__title {
+  font-size: 28px;
+  line-height: 98%;
+  letter-spacing: 0.5px;
+  padding-bottom: 39px;
+}
+.unitImageText__description {
+  font-size: 14px;
+  line-height: 116%;
+  letter-spacing: 0.5px;
+  padding-bottom: 20px;
+}
+.unitImageText__text {
+  font-size: 16px;
+  line-height: 101%;
+  letter-spacing: 0.5px;
+  padding-bottom: 21px;
+}
+.unitImageText__link {
+  font-size: 12px;
+  line-height: 135%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  color: var(--black);
+}
+
 /*# sourceMappingURL=index.css.map */
