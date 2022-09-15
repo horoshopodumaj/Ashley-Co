@@ -68,47 +68,4 @@
         margin: 40px;
         text-align: right;
     }
-
-    &__threeimg {
-        background-image: url("../../img/three.jpg");
-        background-position: 50%;
-        background-size: cover;
-        width: 50%;
-        height: 100vh;
-        max-height: 800px;
-        min-height: 600px;
-    }
-
-    &__threeimgparttwo {
-        background-image: url("../../img/three_2.jpg");
-        background-position: 50%;
-        background-size: cover;
-        width: 50%;
-        height: 100vh;
-        max-height: 800px;
-        min-height: 600px;
-    }
-
-    &__bottomlink {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        height: 100%;
-    }
-
-    &__link_black {
-        color: var(--black);
-        font-size: 12px;
-        line-height: 135%;
-        letter-spacing: 1.2px;
-        text-transform: uppercase;
-        border-bottom: 1px solid;
-        padding-bottom: 3px;
-        display: inline-block;
-    }
-
-    &__underline {
-        padding: 40px;
-        max-width: 310px;
-    }
 }

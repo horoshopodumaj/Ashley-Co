@@ -183,44 +183,6 @@ h6 {
   margin: 40px;
   text-align: right;
 }
-.unitSame__threeimg {
-  background-image: url("../../img/three.jpg");
-  background-position: 50%;
-  background-size: cover;
-  width: 50%;
-  height: 100vh;
-  max-height: 800px;
-  min-height: 600px;
-}
-.unitSame__threeimgparttwo {
-  background-image: url("../../img/three_2.jpg");
-  background-position: 50%;
-  background-size: cover;
-  width: 50%;
-  height: 100vh;
-  max-height: 800px;
-  min-height: 600px;
-}
-.unitSame__bottomlink {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 100%;
-}
-.unitSame__link_black {
-  color: var(--black);
-  font-size: 12px;
-  line-height: 135%;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-  border-bottom: 1px solid;
-  padding-bottom: 3px;
-  display: inline-block;
-}
-.unitSame__underline {
-  padding: 40px;
-  max-width: 310px;
-}
 
 .unitMain {
   display: flex;
@@ -254,6 +216,48 @@ h6 {
   line-height: 135%;
   letter-spacing: 1.2px;
   color: var(--black);
+}
+
+.unitImages {
+  display: flex;
+}
+.unitImages__img {
+  background-image: url("../../img/three.jpg");
+  background-position: 50%;
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  max-height: 800px;
+  min-height: 600px;
+}
+.unitImages__imgtwo {
+  background-image: url("../../img/three_2.jpg");
+  background-position: 50%;
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  max-height: 800px;
+  min-height: 600px;
+}
+.unitImages__bottomlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+.unitImages__link_black {
+  color: var(--black);
+  font-size: 12px;
+  line-height: 135%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  display: inline-block;
+}
+.unitImages__underline {
+  padding: 40px;
+  max-width: 310px;
 }
 
 /*# sourceMappingURL=index.css.map */
