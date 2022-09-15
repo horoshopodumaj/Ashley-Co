@@ -21,8 +21,10 @@
   --brown: #9c8554;
   --grey: #b2b2b2;
   --grey-2: #504b4d;
+  --grey-3: #cccccc;
   --pink: #a26779;
   --red: #b04836;
+  --white: #fff;
 }
 
 * {
@@ -120,6 +122,62 @@ h6 {
 .header {
   position: absolute;
   left: 26px;
+}
+
+.footer {
+  background-color: var(--black);
+}
+.footer__form {
+  display: flex;
+}
+.footer__name {
+  display: flex;
+  flex-direction: column;
+}
+.footer__email {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.footer__input {
+  border-bottom: 1px solid var(--white);
+  background-color: var(--black);
+  width: 280px;
+  height: 22px;
+  color: var(--white);
+}
+.footer__description {
+  margin-top: 48px;
+  font-size: 14px;
+  line-height: 116%;
+  letter-spacing: 0.5px;
+  color: var(--grey-3);
+  padding-bottom: 10px;
+}
+.footer__label {
+  padding-top: 8px;
+  padding-bottom: 43px;
+  color: var(--grey-3);
+  font-size: 14px;
+  line-height: 116%;
+  letter-spacing: 0.5px;
+}
+.footer__button {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.footer__buttonsubmit {
+  opacity: 0;
+}
+.footer__submit {
+  color: var(--white);
+  font-size: 12px;
+  line-height: 135%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: var(--grey-3);
 }
 
 .unitSame {
