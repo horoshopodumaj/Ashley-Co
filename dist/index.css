@@ -122,40 +122,6 @@ h6 {
   left: 26px;
 }
 
-.main__first {
-  display: flex;
-  background-color: var(--yellow);
-}
-.main__img {
-  width: 1080px;
-  height: 688px;
-}
-.main__caption {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  font-size: 25px;
-  line-height: 109%;
-  letter-spacing: 0.5px;
-}
-.main__text {
-  padding-top: 119px;
-  padding-left: 40px;
-  padding-right: 45px;
-}
-.main__description {
-  font-size: 14px;
-  line-height: 116%;
-  letter-spacing: 0.5px;
-  padding-bottom: 21px;
-}
-.main__link {
-  font-size: 12px;
-  line-height: 135%;
-  letter-spacing: 1.2px;
-  color: var(--black);
-}
-
 .second {
   display: flex;
   background-color: var(--brown);
@@ -254,6 +220,40 @@ h6 {
 .second__underline {
   padding: 40px;
   max-width: 310px;
+}
+
+.unitMain {
+  display: flex;
+  background-color: var(--yellow);
+}
+.unitMain__img {
+  width: 1080px;
+  height: 688px;
+}
+.unitMain__caption {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  font-size: 25px;
+  line-height: 109%;
+  letter-spacing: 0.5px;
+}
+.unitMain__text {
+  padding-top: 119px;
+  padding-left: 40px;
+  padding-right: 45px;
+}
+.unitMain__description {
+  font-size: 14px;
+  line-height: 116%;
+  letter-spacing: 0.5px;
+  padding-bottom: 21px;
+}
+.unitMain__link {
+  font-size: 12px;
+  line-height: 135%;
+  letter-spacing: 1.2px;
+  color: var(--black);
 }
 
 /*# sourceMappingURL=index.css.map */
