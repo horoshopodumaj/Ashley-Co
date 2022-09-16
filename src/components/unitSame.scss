@@ -1,6 +1,9 @@
 .unitSame {
     display: flex;
     background-color: var(--brown);
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 
     &_five {
         background-color: var(--pink);
@@ -20,6 +23,12 @@
         width: 75%;
         min-height: 690px;
         height: 100vh;
+        @media screen and (max-width: 768px) {
+            order: 1;
+            width: 100%;
+            min-height: 0px;
+            max-height: 440px;
+        }
     }
 
     &__img {
@@ -55,12 +64,25 @@
         flex-direction: column;
         justify-content: space-between;
         width: 25%;
+        @media screen and (max-width: 768px) {
+            order: 2;
+            width: 100%;
+        }
     }
 
     &__text {
+        font-size: 16px;
+        line-height: 101%;
+        letter-spacing: 0.5px;
         margin: 45px 0;
         padding-left: 40px;
         padding-right: 20px;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 20px;
+            margin-top: 0;
+            padding-left: 20px;
+        }
     }
 
     &__title {
@@ -68,9 +90,14 @@
         font-size: 15px;
         line-height: 108%;
         letter-spacing: 0.5px;
-        padding-right: 40px;
-        margin: 39px 0;
-        padding-left: 40px;
+        padding: 0 40px;
+        margin: 40px 0;
+        text-transform: uppercase;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 20px;
+            margin-top: 0;
+            padding: 0 20px;
+        }
     }
 
     &__description {
@@ -99,5 +126,11 @@
         margin: 40px 0;
         padding: 0 40px;
         text-align: right;
+        @media screen and (max-width: 768px) {
+            text-align: left;
+            font-size: 20px;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
     }
 }
