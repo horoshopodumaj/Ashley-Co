@@ -7,13 +7,26 @@
         max-height: 800px;
         min-height: 600px;
         overflow: hidden;
+        @media screen and (max-width: 768px) {
+            max-height: 440px;
+            min-height: 0px;
+        }
     }
 
     &__content {
-        margin-left: 40px;
-        padding-top: 119px;
-        width: 25%;
-        padding-bottom: 40px;
+        @media screen and (min-width: 769px) {
+            width: 25%;
+            margin-left: 40px;
+            padding-top: 119px;
+            padding-bottom: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
     }
 
     &__about {
@@ -29,6 +42,9 @@
         line-height: 109%;
         letter-spacing: 0.5px;
         padding-bottom: 39px;
+        @media screen and (max-width: 768px) {
+            padding-bottom: 20px;
+        }
     }
 
     &__text {

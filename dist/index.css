@@ -131,6 +131,7 @@ h6 {
 @media screen and (max-width: 768px) {
   .header {
     left: 0px;
+    right: 0px;
   }
 }
 
@@ -506,10 +507,25 @@ h6 {
   display: flex;
   margin: 116px 25px;
 }
+@media screen and (max-width: 768px) {
+  .unitImageText {
+    flex-direction: column;
+    margin: 0px;
+  }
+}
 .unitImageText__sectionwithimg {
   padding-right: 30px;
   width: 75%;
   min-height: 600px;
+}
+@media screen and (max-width: 768px) {
+  .unitImageText__sectionwithimg {
+    padding-right: 0px;
+    width: 100%;
+    max-height: 440px;
+    height: 100vh;
+    min-height: 0px;
+  }
 }
 .unitImageText__img {
   background-image: url(../../img/four.jpg);
@@ -520,6 +536,12 @@ h6 {
 .unitImageText__content {
   max-width: 310px;
   margin: auto 0;
+}
+@media screen and (max-width: 768px) {
+  .unitImageText__content {
+    margin: 20px;
+    max-width: 100%;
+  }
 }
 .unitImageText__about {
   font-size: 15px;
@@ -533,6 +555,12 @@ h6 {
   line-height: 98%;
   letter-spacing: 0.5px;
   padding-bottom: 39px;
+}
+@media screen and (max-width: 768px) {
+  .unitImageText__title {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
 }
 .unitImageText__description {
   font-size: 14px;
@@ -565,11 +593,27 @@ h6 {
   min-height: 600px;
   overflow: hidden;
 }
-.unitImage__content {
-  margin-left: 40px;
-  padding-top: 119px;
-  width: 25%;
-  padding-bottom: 40px;
+@media screen and (max-width: 768px) {
+  .unitImage__img {
+    max-height: 440px;
+    min-height: 0px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .unitImage__content {
+    width: 25%;
+    margin-left: 40px;
+    padding-top: 119px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .unitImage__content {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 .unitImage__about {
   font-size: 15px;
@@ -583,6 +627,11 @@ h6 {
   line-height: 109%;
   letter-spacing: 0.5px;
   padding-bottom: 39px;
+}
+@media screen and (max-width: 768px) {
+  .unitImage__title {
+    padding-bottom: 20px;
+  }
 }
 .unitImage__text {
   font-size: 16px;
