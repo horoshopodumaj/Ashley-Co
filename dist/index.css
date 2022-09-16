@@ -434,11 +434,13 @@ h6 {
   height: 100vh;
   max-height: 800px;
   min-height: 600px;
+  overflow: hidden;
 }
 .unitImage__content {
   margin-left: 40px;
   padding-top: 119px;
-  width: 280px;
+  width: 25%;
+  padding-bottom: 40px;
 }
 .unitImage__about {
   font-size: 15px;
