@@ -246,14 +246,34 @@ h6 {
   display: flex;
   background-color: var(--yellow);
 }
+@media screen and (max-width: 768px) {
+  .unitMain {
+    flex-direction: column;
+  }
+}
+.unitMain__section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 600px;
+  width: 75%;
+}
+@media screen and (max-width: 768px) {
+  .unitMain__section {
+    width: 100%;
+  }
+}
 .unitMain__img {
-  width: 1080px;
-  height: 688px;
+  background-image: url("../../img/first.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
 }
 .unitMain__caption {
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-size: 25px;
   line-height: 109%;
   letter-spacing: 0.5px;
@@ -262,6 +282,13 @@ h6 {
   padding-top: 119px;
   padding-left: 40px;
   padding-right: 45px;
+  margin-bottom: 40px;
+  width: 25%;
+}
+@media screen and (max-width: 768px) {
+  .unitMain__text {
+    width: 100%;
+  }
 }
 .unitMain__description {
   font-size: 14px;
