@@ -14,22 +14,53 @@
         background-color: var(--red);
     }
 
+    &__sectionwithimg {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        min-height: 690px;
+        height: 100vh;
+    }
+
     &__img {
-        width: 1065px;
-        height: 688px;
+        background-image: url(../../img/second.jpg);
+        background-size: cover;
+        background-position: 50%;
+        height: 100%;
+
+        &_five {
+            background-image: url(../../img/six.jpg);
+            background-size: cover;
+            background-position: 50%;
+            height: 100%;
+        }
+
+        &_eight {
+            background-image: url(../../img/eight.jpg);
+            background-size: cover;
+            background-position: 50%;
+            height: 100%;
+        }
+
+        &_nine {
+            background-image: url(../../img/nine.jpg);
+            background-size: cover;
+            background-position: 50%;
+            height: 100%;
+        }
     }
 
     &__text-content {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 25%;
     }
 
     &__text {
-        margin-bottom: 45px;
-        margin-left: 40px;
+        margin: 45px 0;
+        padding-left: 40px;
         padding-right: 20px;
-        padding-top: 20px;
     }
 
     &__title {
@@ -38,8 +69,8 @@
         line-height: 108%;
         letter-spacing: 0.5px;
         padding-right: 40px;
-        margin-top: 39px;
-        margin-left: 40px;
+        margin: 39px 0;
+        padding-left: 40px;
     }
 
     &__description {
@@ -65,7 +96,8 @@
         line-height: 109%;
         letter-spacing: 0.5px;
         color: var(--grey);
-        margin: 40px;
+        margin: 40px 0;
+        padding: 0 40px;
         text-align: right;
     }
 }

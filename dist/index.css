@@ -193,20 +193,47 @@ h6 {
 .unitSame_nine {
   background-color: var(--red);
 }
+.unitSame__sectionwithimg {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  min-height: 690px;
+  height: 100vh;
+}
 .unitSame__img {
-  width: 1065px;
-  height: 688px;
+  background-image: url(../../img/second.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+}
+.unitSame__img_five {
+  background-image: url(../../img/six.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+}
+.unitSame__img_eight {
+  background-image: url(../../img/eight.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+}
+.unitSame__img_nine {
+  background-image: url(../../img/nine.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
 }
 .unitSame__text-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 25%;
 }
 .unitSame__text {
-  margin-bottom: 45px;
-  margin-left: 40px;
+  margin: 45px 0;
+  padding-left: 40px;
   padding-right: 20px;
-  padding-top: 20px;
 }
 .unitSame__title {
   color: var(--grey);
@@ -214,8 +241,8 @@ h6 {
   line-height: 108%;
   letter-spacing: 0.5px;
   padding-right: 40px;
-  margin-top: 39px;
-  margin-left: 40px;
+  margin: 39px 0;
+  padding-left: 40px;
 }
 .unitSame__description {
   color: var(--grey);
@@ -238,7 +265,8 @@ h6 {
   line-height: 109%;
   letter-spacing: 0.5px;
   color: var(--grey);
-  margin: 40px;
+  margin: 40px 0;
+  padding: 0 40px;
   text-align: right;
 }
 
