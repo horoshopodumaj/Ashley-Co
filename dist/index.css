@@ -598,11 +598,14 @@ h6 {
 @media screen and (max-width: 1039px) and (min-width: 769px) {
   .unitImageText__content {
     width: 35%;
+    margin: 20px 0;
+    padding: 0 20px;
   }
 }
 @media screen and (max-width: 768px) {
   .unitImageText__content {
-    margin: 20px;
+    margin: 20px 0;
+    padding: 0 20px;
     width: 100%;
   }
 }

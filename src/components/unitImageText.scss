@@ -35,9 +35,12 @@
         margin: auto 0;
         @media screen and (max-width: 1039px) and (min-width: 769px) {
             width: 35%;
+            margin: 20px 0;
+            padding: 0 20px;
         }
         @media screen and (max-width: 768px) {
-            margin: 20px;
+            margin: 20px 0;
+            padding: 0 20px;
             width: 100%;
         }
     }
